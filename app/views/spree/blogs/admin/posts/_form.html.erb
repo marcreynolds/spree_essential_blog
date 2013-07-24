@@ -17,7 +17,7 @@
 <% end %>
 
 <%= form.field_container :body do %>
-  <%= form.label :body, t("activerecord.attributes.post.body") %><%= markdown_helper %><br />
+  <%= form.label :body, t("activerecord.attributes.post.body") %><br />
   <%= form.text_area :body  %>
   <%= error_message_on :post, :body %>
 <% end %>
